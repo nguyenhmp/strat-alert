@@ -7,13 +7,15 @@ from datetime import datetime
 import pytz
 import time
 from datetime import timedelta
-from twilio.rest import Client
 import smtplib
 from email.mime.text import MIMEText
 
 
 # === Configuration ===
 SYMBOL = "QQQ"
+# EMAIL = "nguyenhminhp@gmail.com"
+# APP_PASSWORD = "babt easm gylr wbvy"
+# TO_NUMBER = "4252464470@tmomail.net"
 EMAIL = os.environ["EMAIL"]
 APP_PASSWORD = os.environ["APP_PASSWORD"]
 # import yfinance as yf
